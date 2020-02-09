@@ -54,7 +54,7 @@ class IndexTemplate extends React.Component {
       data: { authors }
     } = this.props;
     const { menuOpen } = this.state;
-
+    
     return (
       <Layout location={location}>
         <Drawer className="home-template" isOpen={menuOpen}>
