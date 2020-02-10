@@ -47,6 +47,9 @@ module.exports = {
           {
             resolve: "gatsby-remark-responsive-iframe"
           },
+          {
+            resolve: `gatsby-remark-vscode`,
+          },
           
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
