@@ -4,11 +4,14 @@ import About from "../components/About/About";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import config from "../../data/SiteConfig";
 import Drawer from "../components/Drawer/Drawer";
+import Footer from "../components/Footer/Footer"
 import Layout from "../components/layout";
 import MainHeader from "../components/MainHeader/MainHeader";
 import MainNav from "../components/MainNav/MainNav";
 import MenuButton from "../components/MenuButton/MenuButton";
 import Navigation from "../components/Navigation/Navigation";
+import PageDescription from "../components/PageDescription/PageDescription"
+import PageTitle from "../components/PageTitle/PageTitle"
 import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
 
 
@@ -16,6 +19,16 @@ class AboutPage extends Component {
 
   state = {
     menuOpen: false
+  };
+
+  handleOnClick = evt => {
+    const { menuOpen } = this.state;
+    evt.stopPropagation();
+    if (menuOpen) {
+      this.closeMenu();
+    } else {
+      this.openMenu();
+    }
   };
 
   handleOnClose = evt => {
@@ -45,7 +58,7 @@ class AboutPage extends Component {
             <Helmet title={`About | ${config.siteTitle}`} />
             <Navigation config={config} onClose={this.handleOnClose} />
             <SiteWrapper>
-              <div className="home-template">
+              <div className="about-template">
                 <MainHeader cover={config.siteCover}>
                   <MainNav overlay={config.siteCover}>
                     <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
@@ -55,9 +68,23 @@ class AboutPage extends Component {
                     />
 
                   </MainNav>
+                  <div className="vertical">
+                    <div className="main-header-content inner">
+                      <PageTitle text='About the blog' />
+                      <PageDescription text='Reading is hard, too.' />
+                    </div>
+                  </div>
+
                 </MainHeader>
-                <About />
+                <div className="content inner">
+                  <About />
+
+                </div>
               </div>
+              <Footer
+                copyright={config.copyright}
+                promoteGatsby={config.promoteGatsby}
+              />
             </SiteWrapper>
           </div>
         </Drawer>
