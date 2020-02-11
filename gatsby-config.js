@@ -49,6 +49,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: 'Tomorrow Night Blue'
+            }
           },
           
           "gatsby-remark-prismjs",

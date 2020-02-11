@@ -18,6 +18,9 @@ hominem loco coniuge quota, nec aura. Cum constiterat, animos sic videre dumque
 altus **de vesper** membra blanditiis aethera orgia.
 
 ```js
+const why = `Because it's hard!`;
+const harry = spell(`lumos`);
+console.log(`Why? ${why}. That's why!`);
 console.log("what you lookin at, fool?");
 ```
 
