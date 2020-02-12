@@ -1,14 +1,16 @@
 ---
 title: "Bold Mage"
-cover: "/images/hidden-beach-between-mountains-in-north-norway-picjumbo-com.jpg"
+cover: "https://picsum.photos/seed/picsum/900/600"
+# "/images/hidden-beach-between-mountains-in-north-norway-picjumbo-com.jpg"
 author: "guinevere"
 date: "2017-01-01"
 category: "tech"
 tags:
-    - programming
-    - stuff
-    - other
+  - programming
+  - stuff
+  - other
 ---
+
 # Quanto et ius coniunctis urbes
 
 ## Sedisti civiliter
@@ -17,7 +19,7 @@ Lorem **markdownum** Ixione palus **semper peritura barbaque** in aureus
 obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
 ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
 animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
-*Talibus ausis*.
+_Talibus ausis_.
 
 ## Vultusque subsequitur Pallas regis datis inde animaque
 

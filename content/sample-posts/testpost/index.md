@@ -2,6 +2,7 @@
 title: "Sharif is testing; watch out!"
 cover: "https://unsplash.it/1152/300/?random"
 date: "2020-02-09"
+author: sharif
 category: "web development"
 tags:
   - test
