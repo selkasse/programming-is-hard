@@ -51,6 +51,7 @@ class TagTemplate extends React.Component {
       pageContext: { nodes, tag, page, pages, total, limit, prev, next }
     } = this.props;
     const { menuOpen } = this.state;
+    const pluralPosts = total === 1 ? 'post' : 'posts'
 
     return (
       <Layout location={location}>
@@ -75,7 +76,7 @@ class TagTemplate extends React.Component {
                   <div className="main-header-content inner">
                     <PageTitle text={tag} />
                     <PageDescription
-                      text={tag.description || `A ${total}-post collection`}
+                      text={tag.description || `${total} ${pluralPosts}`}
                     />
                   </div>
                 </div>
