@@ -18,12 +18,12 @@ import PostFooter from "../components/PostFooter/PostFooter";
 import AuthorImage from "../components/AuthorImage/AuthorImage";
 import AuthorInfo from "../components/AuthorInfo/AuthorInfo";
 import PostShare from "../components/PostShare/PostShare";
-import GhostSubscribe from "../components/GhostSubscribe/GhostSubscribe";
+// import GhostSubscribe from "../components/GhostSubscribe/GhostSubscribe";
 import ReadNext from "../components/ReadNext/ReadNext";
 import PostTags from "../components/PostTags/PostTags";
 import Footer from "../components/Footer/Footer";
 import AuthorModel from "../models/author-model";
-import Disqus from "../components/Disqus/Disqus";
+// import Disqus from "../components/Disqus/Disqus";
 import Layout from "../components/layout";
 
 function parsePost(post, slug) {
@@ -136,8 +136,8 @@ class PostTemplate extends React.Component {
                     postPath={location.pathname}
                     config={config}
                   />
-                  <GhostSubscribe />
-                  <Disqus postNode={postNode} />
+                  {/* <GhostSubscribe /> */}
+                  {/* <Disqus postNode={postNode} /> */}
                 </PostFooter>
               </PostFormatting>
             </MainContent>

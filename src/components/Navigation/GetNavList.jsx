@@ -33,6 +33,13 @@ function GetNavList(config) {
     component: Link,
     to: "/about/"
   });
+
+  NavList.push({
+    primaryText: "Resources",
+    // LeftIcon: <FontIcon>person</FontIcon>,
+    component: Link,
+    to: "/resources/"
+  });
   return NavList;
 }
 export default GetNavList;
