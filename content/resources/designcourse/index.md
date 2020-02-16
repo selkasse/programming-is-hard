@@ -1,9 +1,9 @@
 ---
-title: "Brad Traversy's YouTube Channel"
-url: "https://www.youtube.com/user/TechGuyWeb"
+title: "DesignCourse (YouTube Channel)"
+url: "https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow"
 tags:
   - youtube
-  - npm
+  - design
 ---
 
-Before I started this blog, I felt overwhelmed trying to research what framework I should use, if any. Watching his [Web Development in 2020 video](https://www.youtube.com/watch?v=0pThnRneDjw){:target="\_blank"} helped answer a lot of my questions, and definitely gave me a better idea of what my options where, given the direction I wanted to take. His channel also has "crash courses" that give you a quick run-down of a topic in about an hour or two. His [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) helped me get a core foundation of npm, and allowed me to get past a lot of frustrating npm installs.
+I have not watched many DesignCourse videos, but I can tell that it is quality content, with solid information. As you might guess from the name, the focus is more on the design aspect of frontend development. When I first set up my Digital Ocean droplet, I browsed through the one-click installs and realized I didn't know what a lot of the software was. I was interested in Ghost, and ended up on this [two-part series](https://www.youtube.com/watch?v=PE1rGl1HKr4), which really gave me some insight on how to leverage modern frontend technology.

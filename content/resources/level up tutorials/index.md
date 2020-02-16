@@ -1,9 +1,10 @@
 ---
-title: "Brad Traversy's YouTube Channel"
-url: "https://www.youtube.com/user/TechGuyWeb"
+title: "Level Up Tutorials"
+url: "https://www.leveluptutorials.com/"
 tags:
+  - tutorials
+  - courses
   - youtube
-  - npm
 ---
 
-Before I started this blog, I felt overwhelmed trying to research what framework I should use, if any. Watching his [Web Development in 2020 video](https://www.youtube.com/watch?v=0pThnRneDjw){:target="\_blank"} helped answer a lot of my questions, and definitely gave me a better idea of what my options where, given the direction I wanted to take. His channel also has "crash courses" that give you a quick run-down of a topic in about an hour or two. His [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) helped me get a core foundation of npm, and allowed me to get past a lot of frustrating npm installs.
+Level Up Tutorials has, well... tutorials that will level up your development skills! Scott Tolinksi puts out a new tutorial series every month, on topics ranging from CSS layouts, testing, Javascript frameworks, and more. You can either buy courses a la carte, or sign up for an annual subscription to get acces to each monthly series. Completing the [Pro Gatsby 2 course](https://www.leveluptutorials.com/tutorials/pro-gatsby-2) was instrumental in this blog coming together. Level Up Tutorials also has a [YouTube channel](https://www.youtube.com/user/LevelUpTuts) with lots of free content.

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Resources from "../components/Resources/Resources";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import config from "../../data/SiteConfig";
@@ -49,7 +49,6 @@ class ResourcesPage extends Component{
             location,
             data: {resources}
         } = this.props;
-        console.log(this.props);
         const { menuOpen } = this.state;
         return (
           <Layout location={location}>
@@ -98,7 +97,8 @@ class ResourcesPage extends Component{
 /* eslint no-undef: "off" */
 export const resourceQuery = graphql`
   query ResourceQuery {
-    resources: allMarkdownRemark(filter: {fileAbsolutePath:{regex: "/(resources)/.*\\.md$/"}}
+    resources: allMarkdownRemark(filter: {fileAbsolutePath:{regex: "/(resources)/.*\\.md$/"}},
+    sort: {order:ASC, fields: [frontmatter___title]}
   ) {
     edges {
       node {

@@ -17,7 +17,6 @@ if (process.env.NODE_ENV === "production") {
 
 export default class HTML extends React.Component {
   render() {
-    console.log('inside html.jsx');
     const { headComponents, body, postBodyComponents } = this.props;
     let css;
     if (process.env.NODE_ENV === "production") {

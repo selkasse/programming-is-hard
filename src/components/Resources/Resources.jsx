@@ -10,16 +10,16 @@ class Resources extends Component {
       return (
         <div className="resources">
           <ul>
-            {resourceEdges.map(edge => (
+            {resourceEdges.map(({node}) => (
               <li>
                 <div>
                   <h2>
-                    <a href={edge.node.frontmatter.url} target="_blank" rel="noopener noreferrer">
-                      {edge.node.frontmatter.title}
+                    <a href={node.frontmatter.url} target="_blank" rel="noopener noreferrer">
+                      {node.frontmatter.title}
                     </a>
                   </h2>
                   <section
-                    dangerouslySetInnerHTML={{ __html: edge.node.html }}
+                    dangerouslySetInnerHTML={{ __html: node.html }}
                   />
                 </div>
               </li>

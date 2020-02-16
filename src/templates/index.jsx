@@ -53,7 +53,6 @@ class IndexTemplate extends React.Component {
       pageContext: { nodes, page, pages, total, limit, prev, next },
       data: { authors }
     } = this.props;
-    console.log(this.props);
     const { menuOpen } = this.state;
     
     return (

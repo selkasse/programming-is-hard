@@ -12,7 +12,6 @@ class CategoryTemplate extends React.Component {
       pageContext: { category },
       data: { allMarkdownRemark, authors }
     } = this.props;
-    console.log(this.props);
 
     const postEdges = allMarkdownRemark.edges;
     const authorsEdges = authors.edges;

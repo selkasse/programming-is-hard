@@ -1,9 +1,9 @@
 ---
-title: "Brad Traversy's YouTube Channel"
-url: "https://www.youtube.com/user/TechGuyWeb"
+title: "Syntax (Web Development Podcast)"
+url: "https://syntax.fm/"
 tags:
-  - youtube
-  - npm
+  - podcasts
+  - industry
 ---
 
-Before I started this blog, I felt overwhelmed trying to research what framework I should use, if any. Watching his [Web Development in 2020 video](https://www.youtube.com/watch?v=0pThnRneDjw){:target="\_blank"} helped answer a lot of my questions, and definitely gave me a better idea of what my options where, given the direction I wanted to take. His channel also has "crash courses" that give you a quick run-down of a topic in about an hour or two. His [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) helped me get a core foundation of npm, and allowed me to get past a lot of frustrating npm installs.
+Syntax is by far my favorite podcast, and such an excellent and entertaining resource for web developers of any skill level. Focused primarily on Javascript, hosts Scott Tolinski and Wes Bos talk on topics such as testing, security, accessibility, soft skills, React, Svelte, Vue, and the list goes on...

@@ -1,9 +1,9 @@
 ---
-title: "Brad Traversy's YouTube Channel"
-url: "https://www.youtube.com/user/TechGuyWeb"
+title: "DigitalOcean"
+url: "https://www.digitalocean.com/"
 tags:
-  - youtube
-  - npm
+  - hosting
+  - tools
 ---
 
-Before I started this blog, I felt overwhelmed trying to research what framework I should use, if any. Watching his [Web Development in 2020 video](https://www.youtube.com/watch?v=0pThnRneDjw){:target="\_blank"} helped answer a lot of my questions, and definitely gave me a better idea of what my options where, given the direction I wanted to take. His channel also has "crash courses" that give you a quick run-down of a topic in about an hour or two. His [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) helped me get a core foundation of npm, and allowed me to get past a lot of frustrating npm installs.
+DigitalOcean is a developer-focused service that allows you to host and scale your web application."Developer-focused" meaning that you get virtual access to your server, as opposed to more generic hosting solutions that give you drag-and-drop interfaces. This means that you get to install the OS of your choice, and configure it with as much storage and computing power as you need. DigitalOcean also offers "1-Click Applications" through their [marketplace](https://marketplace.digitalocean.com), so you can quickly get started with things like Docker, a LAMP stack, and Wordpress.
