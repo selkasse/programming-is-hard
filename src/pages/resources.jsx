@@ -45,9 +45,10 @@ class ResourcesPage extends Component{
 
     render() {
         const {
-            location
-
+            location,
+            data: {resources}
         } = this.props;
+        // console.log(resources.edges.nodes);
         const { menuOpen } = this.state;
         return (
           <Layout location={location}>
@@ -75,7 +76,7 @@ class ResourcesPage extends Component{
 
                     </MainHeader>
                     <div className="content inner">
-                      <Resources />
+                      <Resources resourceEdges={resources.edges} />
 
                     </div>
                   </div>
@@ -92,5 +93,24 @@ class ResourcesPage extends Component{
         );
     }
 }
+
+/* eslint no-undef: "off" */
+export const resourceQuery = graphql`
+  query ResourceQuery {
+    resources: allMarkdownRemark(filter: {fileAbsolutePath:{regex: "/(resources)/.*\\.md$/"}}
+  ) {
+    edges {
+      node {
+        frontmatter{
+          title
+          tags
+          url
+        }
+        html
+      }
+    }
+  }
+  }
+`;
 
 export default ResourcesPage;

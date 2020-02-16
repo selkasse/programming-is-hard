@@ -30,7 +30,7 @@ class PostListing extends React.Component {
   render() {
     const { postEdges, postAuthors } = this.props;
     const postList = getPostList(postEdges, postAuthors);
-
+    console.log(typeof postAuthors);
     return (
       <div>
         {/* This is the post loop - each post will be output using this markup */}

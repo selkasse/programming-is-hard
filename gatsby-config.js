@@ -33,6 +33,13 @@ module.exports = {
         path: `${__dirname}/content/${config.blogAuthorDir}`
       }
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "resources",
+        path: `${__dirname}/content/${config.resourceDir}`
+      }
+    },
     "gatsby-transformer-json",
     {
       resolve: "gatsby-transformer-remark",
@@ -161,6 +168,7 @@ module.exports = {
                       category
                       tags
                       author
+                      url
                     }
                   }
                 }
