@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby"
 import Resources from "../components/Resources/Resources";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import config from "../../data/SiteConfig";
@@ -48,11 +49,12 @@ class ResourcesPage extends Component{
             location,
             data: {resources}
         } = this.props;
+        console.log(this.props);
         const { menuOpen } = this.state;
         return (
           <Layout location={location}>
-            <Drawer className="author-template" isOpen={menuOpen}>
-              <div className="about-container">
+            <Drawer isOpen={menuOpen}>
+              <div className="container">
                 <Helmet title={`Resources | ${config.siteTitle}`} />
                 <Navigation config={config} onClose={this.handleOnClose} />
                 <SiteWrapper>
@@ -111,5 +113,7 @@ export const resourceQuery = graphql`
   }
   }
 `;
+
+
 
 export default ResourcesPage;

@@ -50,6 +50,7 @@ class AboutPage extends Component {
       location
       
     } = this.props;
+    console.log(this.props);
     const { menuOpen } = this.state;
     return (
       <Layout location={location}>

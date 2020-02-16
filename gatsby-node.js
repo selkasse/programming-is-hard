@@ -17,6 +17,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
+
     ) {
       slug = `/${_.kebabCase(node.frontmatter.slug)}`;
     } else if (
@@ -62,6 +63,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
           {
             allMarkdownRemark(
+              filter:{frontmatter:{cover:{ne: null}}}
               limit: 1000
               sort: { fields: [frontmatter___date], order: DESC }
             ) {

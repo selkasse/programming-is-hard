@@ -50,6 +50,7 @@ class TagTemplate extends React.Component {
       data: { authors },
       pageContext: { nodes, tag, page, pages, total, limit, prev, next }
     } = this.props;
+    console.log(this.props);
     const { menuOpen } = this.state;
     const pluralPosts = total === 1 ? 'post' : 'posts'
 

@@ -78,6 +78,7 @@ class PostTemplate extends React.Component {
       data,
       pageContext: { slug, next, prev }
     } = this.props;
+    console.log(this.props);
     const { menuOpen } = this.state;
 
     const postNode = data.markdownRemark;
@@ -158,7 +159,9 @@ class PostTemplate extends React.Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!, $next: String, $prev: String) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(
+    fields: { slug: { eq: $slug }  })
+     {
       html
       timeToRead
       excerpt

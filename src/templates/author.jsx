@@ -56,6 +56,7 @@ class AuthorTemplate extends React.Component {
       data: { allMarkdownRemark, allAuthorsJson },
       pageContext: { author, cover }
     } = this.props;
+    console.log(this.props);
     const { menuOpen } = this.state;
 
     const postEdges =
