@@ -48,7 +48,6 @@ class ResourcesPage extends Component{
             location,
             data: {resources}
         } = this.props;
-        // console.log(resources.edges.nodes);
         const { menuOpen } = this.state;
         return (
           <Layout location={location}>

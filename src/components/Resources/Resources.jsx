@@ -1,44 +1,31 @@
 import React, { Component } from "react";
 import "./Resources.css";
 
-// const getResourceList = function (resourceEdges){
-//   const resourceArray = Array.from(resourceEdges);
-//   console.log (typeof resourceArray)
-// }
-
-const resourceEdgesToList = function(rEdges){
-
-  rEdges.map((edge) => {
-    console.log(edge.node);
-    console.log(edge.node.id);
-    console.log(edge.node.frontmatter.title);
-    console.log(edge.node.frontmatter.tags);
-    console.log(edge.node.frontmatter.url);
-    console.log(edge.node.html);
-
-  });
-} 
-  
-
-  
 
 class Resources extends Component {
     render(){
       const { resourceEdges } = this.props;
 
-      const resourceList = resourceEdgesToList(resourceEdges);
-
-      console.log(resourceList);
-      console.log(typeof resourceList);
 
       return (
         <div className="resources">
-          {resourceEdges.map(edge => (
-            <h2>
-              
-              {edge.node.frontmatter.title}
-            </h2>
+          <ul>
+            {resourceEdges.map(edge => (
+              <li>
+                <div>
+                  <h2>
+                    <a href={edge.node.frontmatter.url} target="_blank" rel="noopener noreferrer">
+                      {edge.node.frontmatter.title}
+                    </a>
+                  </h2>
+                  <section
+                    dangerouslySetInnerHTML={{ __html: edge.node.html }}
+                  />
+                </div>
+              </li>
             ))}
+
+          </ul>
         </div>
       )
 
