@@ -3,12 +3,12 @@ module.exports = {
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
   resourceDir: "resources",
   blogAuthorId: "sharif", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Programming is Hard", // Site title.
-  siteTitleAlt: "Programming is Hard blog", // Alternative site title for SEO.
+  siteTitle: "The Engine", // Site title.
+  siteTitleAlt: "The Engine blog", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  pathPrefix: "/the-engine", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Problem-solving / development blog", // Website description used for RSS feeds/meta description tag.
   siteCover:
@@ -46,7 +46,7 @@ module.exports = {
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: "Gatsby Casper Starter" // Label used before the year
+    label: "The Engine" // Label used before the year
     // year: "2018" // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },
