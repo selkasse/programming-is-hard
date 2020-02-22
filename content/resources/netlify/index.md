@@ -1,6 +1,7 @@
 ---
 title: "Netlify"
 url: "https://www.netlify.com/"
+anchor: "netlify"
 tags:
   - hosting
   - tools

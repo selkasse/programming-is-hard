@@ -1,6 +1,7 @@
 ---
 title: "Egghead.io podcast"
 url: "https://egghead.io/podcasts"
+anchor: "egghead-io-podcast"
 tags:
   - podcasts
 ---

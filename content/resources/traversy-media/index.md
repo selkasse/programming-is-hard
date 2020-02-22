@@ -1,6 +1,7 @@
 ---
 title: "Traversy Media"
 url: "https://www.youtube.com/user/TechGuyWeb"
+anchor: "traversy-media"
 tags:
   - youtube
   - npm

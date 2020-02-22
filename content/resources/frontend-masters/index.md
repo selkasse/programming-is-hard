@@ -1,6 +1,7 @@
 ---
 title: "Frontend Masters"
 url: "https://frontendmasters.com/"
+anchor: "frontend-masters"
 tags:
   - courses
 ---

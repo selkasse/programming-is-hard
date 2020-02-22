@@ -1,6 +1,7 @@
 ---
 title: "DigitalOcean"
 url: "https://www.digitalocean.com/"
+anchor: "digitalocean"
 tags:
   - hosting
   - tools

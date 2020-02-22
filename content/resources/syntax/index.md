@@ -1,6 +1,7 @@
 ---
 title: "Syntax"
 url: "https://syntax.fm/"
+anchor: "syntax"
 tags:
   - podcasts
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Blinkist"
 url: "https://www.blinkist.com/"
+anchor: "blinkist"
 tags:
   - books
   - philosophy

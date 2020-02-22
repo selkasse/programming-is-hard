@@ -1,6 +1,7 @@
 ---
 title: "Gatsby"
 url: "https://www.gatsbyjs.org/"
+anchor: "gatsby"
 tags:
   - frameworks
   - open source

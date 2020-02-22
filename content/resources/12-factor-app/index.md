@@ -1,6 +1,7 @@
 ---
 title: "The 12 Factor App"
 url: "https://12factor.net/"
+anchor: "12-factor-app"
 tags:
   - devops
   - best practices

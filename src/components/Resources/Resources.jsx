@@ -13,7 +13,7 @@ class Resources extends Component {
             {resourceEdges.map(({node}) => (
               <li>
                 <div>
-                  <h2>
+                  <h2 id={node.frontmatter.anchor}>
                     <a href={node.frontmatter.url} target="_blank" rel="noopener noreferrer">
                       {node.frontmatter.title}
                     </a>

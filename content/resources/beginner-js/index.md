@@ -1,6 +1,7 @@
 ---
 title: "Beginner Javascript"
 url: "https://beginnerjavascript.com/"
+anchor: "beginner-javascript"
 tags:
   - courses
   - javascript

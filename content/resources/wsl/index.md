@@ -1,6 +1,7 @@
 ---
 title: "Windows Subsystem for Linux"
 url: "https://docs.microsoft.com/en-us/windows/wsl/faq"
+anchor: "wsl"
 tags:
   - terminal
   - tools

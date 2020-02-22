@@ -105,6 +105,7 @@ export const resourceQuery = graphql`
         frontmatter{
           title
           tags
+          anchor
           url
         }
         html
