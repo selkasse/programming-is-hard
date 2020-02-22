@@ -1,6 +1,6 @@
 ---
 title: "Code Spell Checker"
-url: "https://github.com/streetsidesoftware/vscode-spell-checker"
+url: "https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
 anchor: "code-spell-checker"
 tags:
   - vs code
