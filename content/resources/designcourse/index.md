@@ -1,5 +1,5 @@
 ---
-title: "DesignCourse (YouTube Channel)"
+title: "DesignCourse"
 url: "https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow"
 tags:
   - youtube
